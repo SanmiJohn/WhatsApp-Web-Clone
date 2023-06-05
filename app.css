@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    height: 30em;
+    width: 45em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+section {
+    background-color: #1BAB70;
+    width: 11em;
+    height: 28em;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+input {
+    background-color: #239772;
+    border: none;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+aside {
+    background-color: #F8F9FB;
+    width: 22em;
+    height: 30em;
+}
+
+#asidenamebox {
+    width: 22em;
+    height: 3.5em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+#asidechatbox {
+    width: 22em;
+    height: 24em;
+}
+
+#asidetypemessagebox {
+    width: 22em;
+    height: 2.5em;
+    background-color: #EBEBEB;
+}
+
+footer {
+    background-color: white;
+    width: 10em;
+    height: 30em;
+}
